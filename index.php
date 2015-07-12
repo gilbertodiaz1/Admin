@@ -56,8 +56,8 @@ $bsiCore->exchange_rate_update();
                                 <?php echo $bsiCore->capacitycombo();?>
                             </div>
                         </div>                       
-                        <?php /*echo $bsiCore->getChildcombo();*/?>
-                        <?php /*echo $bsiCore->get_currency_combo3($bsiCore->currency_code()); */?>
+                        <?php echo $bsiCore->getChildcombo();?>
+                        <?php echo $bsiCore->get_currency_combo3($bsiCore->currency_code()); ?>
                         <!--<button id="btn_room_search" class="sear-btn" type="submit" onClick="window.location.href ='search-result.html'">Search</button>-->
                         <br>
                         <div class="row center">

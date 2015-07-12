@@ -53,6 +53,9 @@ header('Location: booking-failure.php?error_code=9');
         <div class="container-fluid">
             <div class="row-fluid">
                 <div class="span12">
+                 <form name="searchresult" id="searchresult" method="post" action="booking_details.php" onSubmit="return validateSearchResultForm('<?php
+                                echo SELECT_ONE_ROOM_ALERT;
+                                ?>');">
                     <div id="body-div">
                         <h1> <?php echo $bsiCore->config['conf_hotel_name']; ?></h1>
                         <div class="wizard">
@@ -100,28 +103,12 @@ header('Location: booking-failure.php?error_code=9');
                             </script>';
                             
                             ?>
-                            <h2><?php
-                            echo SEARCH_INPUT_TEXT;
-                            ?> (<a href="index.php"><?php
-                                echo MODIFY_SEARCH_TEXT;
-                            ?></a>)</h2>
+                            <h2><?php echo SEARCH_INPUT_TEXT;?> (<a href="index.php"><?php echo MODIFY_SEARCH_TEXT;?></a>)</h2>
+
                             <span style=" font-size:14px; font-weight:bold">
-                                <a style="color:#fff" id='iframe_<?php
-                                    echo str_replace(" ", "", $room_type['rtid']) . '_' . str_replace(" ", "", $capid) . $ik;
-                                    ?>' href="calendar.php?rtype=<?php
-                                    echo $room_type['rtid'];
-                                    ?>&cid=<?php
-                                    echo $capid;
-                                    ?>" title='<span  style="font-size:16px;"><strong><?php
-                                        echo $room_type['rtname'];
-                                        ?></strong> ( <?php
-                                        echo $capvalues['captitle'];
-                                    ?> ) </span>' ><?php
-                                    echo VIEW_NIGHTLY_PRICE_TEXT;
-                                    ?> &amp; <?php
-                                    echo CALENDAR_AVAILABILITY_TEXT;
-                                ?></a>
+                                <a style="color:#fff" id='iframe_<?php echo str_replace(" ","",$room_type['rtid']).'_'.str_replace(" ","",$capid).$ik; ?>' href="calendar.php?rtype=<?php echo $room_type['rtid']; ?>&cid=<?php echo $capid; ?>" title='<span  style="font-size:16px;"><strong><?php echo $room_type['rtname']; ?></strong> ( <?php echo $capvalues['captitle']; ?> ) </span>' ><?php echo VIEW_NIGHTLY_PRICE_TEXT; ?> &amp; <?php echo CALENDAR_AVAILABILITY_TEXT; ?></a>
                             </span>
+
                             <table class="normal-table">
                                 <tbody>
                                     <tr>
@@ -165,26 +152,11 @@ header('Location: booking-failure.php?error_code=9');
                                         ?></td>
                                     </tr>
                                     
-                                    <?php
-                                    if ($bsisearch->childPerRoom) {
-                                    ?>
-                                    <tr>
-                                        <td><strong><?php
-                                            echo CHILD_PER_ROOM_TEXT;
-                                        ?>:</strong></td>
-                                        <td><?php
-                                            echo $bsisearch->childPerRoom;
-                                        ?></td>
-                                    </tr>
-                                    <?php
-                                    }
-                                    ?>
+  
                                 </tbody>
                             </table>
                             
-                            <form name="searchresult" id="searchresult" method="post" action="booking_details.php" onSubmit="return validateSearchResultForm('<?php
-                                echo SELECT_ONE_ROOM_ALERT;
-                                ?>');">
+                           
                             </div>
                             <div class="wrapper">
                                 
@@ -202,20 +174,24 @@ header('Location: booking-failure.php?error_code=9');
                                 echo '<table cellpadding="4" cellspacing="0" width="100%"><tbody><tr><td style="font-size:13px; color:#F00;" align="center"><br /><br />';
                                     if ($bsisearch->searchCode == "SEARCH_ENGINE_TURN_OFF") {
                                     echo SORRY_ONLINE_BOOKING_CURRENTLY_NOT_AVAILABLE_TEXT;
-                                    } else if ($bsisearch->searchCode == "OUT_BEFORE_IN") {
+                                    } 
+                                    else if ($bsisearch->searchCode == "OUT_BEFORE_IN") {
                                     echo SORRY_YOU_HAVE_ENTERED_A_INVALID_SEARCHING_CRITERIA_TEXT;
-                                    } else if ($bsisearch->searchCode == "NOT_MINNIMUM_NIGHT") {
+                                    } 
+                                    else if ($bsisearch->searchCode == "NOT_MINNIMUM_NIGHT") {
                                     echo MINIMUM_NUMBER_OF_NIGHT_SHOULD_NOT_BE_LESS_THAN_TEXT . ' ' . $bsiCore->config['conf_min_night_booking'] . ' ' . PLEASE_MODIFY_YOUR_SEARCHING_CRITERIA_TEXT;
-                                    } else if ($bsisearch->searchCode == "TIME_ZONE_MISMATCH") {
+                                    } 
+                                    else if ($bsisearch->searchCode == "TIME_ZONE_MISMATCH") {
                                     $tempdate = date("l F j, Y G:i:s T");
                                     echo BOOKING_NOT_POSSIBLE_FOR_CHECK_IN_DATE_TEXT . ' ' . $bsisearch->checkInDate . ' ' . PLEASE_MODIFY_YOUR_SEARCHING_CRITERIA_TO_HOTELS_DATE_TIME_TEXT . '<br>' . HOTELS_CURRENT_DATE_TIME_TEXT . ' ' . $tempdate;
-                                    } else {
+                                    } 
+                                    else {
                                     echo SORRY_NO_ROOM_AVAILABLE_AS_YOUR_SEARCHING_CRITERIA_TRY_DIFFERENT_DATE_SLOT;
                                     }
                                 echo '<br /><br /><br /></td></tr></tbody></table>';
                                 }
                                 ?>
-                                
+
                                 
                             </div>
                             <div class="wrapper" style="margin-bottom: 20px">
@@ -252,10 +228,11 @@ header('Location: booking-failure.php?error_code=9');
                                         }
                                         ?>
                                     </div>
-                                </form>
+                                
                             </div>
                         </div>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
