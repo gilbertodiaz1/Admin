@@ -126,7 +126,7 @@ class bsiHotelCore{
 		$row=mysql_fetch_row(mysql_query("select gateway_name from bsi_payment_gateway where gateway_code='".$gcode."'"));
 		return $row[0];
 	}
-	
+	/*
 	public function getChildcombo(){
 		$child_res=mysql_query("SELECT max(`no_of_child`) as mchild FROM `bsi_room`");
 		$rowchild=mysql_fetch_assoc($child_res);
@@ -144,7 +144,7 @@ class bsiHotelCore{
 		}
 		
 		return $childhtml;
-	}
+	}*/
 	
 	
 	 
@@ -196,7 +196,7 @@ class bsiHotelCore{
 		 return $default2['currency_symbl'];
 	 }
 	 
-	  public function get_currency_combo3($c_code){
+	 /* public function get_currency_combo3($c_code){
 		  
 		  $sql=mysql_query("select * from bsi_currency order by currency_code");
 		  $combo='<div class="control-group">
@@ -220,7 +220,7 @@ class bsiHotelCore{
 		  }
 		  
 		  return $combo;
-	  }
+	  }*/
 	  
 	   public function get_currency_combo2($c_code){
 		  $combo='<select name="currency"  class="input-small" onchange="currency_change(this.value)">';
