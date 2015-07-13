@@ -1,10 +1,4 @@
 <?php
-/**
- * @package BSI
- * @author BestSoft Inc see README.php
- * @copyright BestSoft Inc.
- * See COPYRIGHT.php for copyright notices and details.
- */
 $bsiCore = new bsiHotelCore;
 class bsiHotelCore
 {
@@ -67,7 +61,6 @@ class bsiHotelCore
     public function capacitycombo()
     {
         $chtml = '<select id="capacity" name="capacity" class="input-medium">';
-        
         $capacityrow = mysql_fetch_assoc(mysql_query("SELECT Max(capacity) as capa FROM bsi_capacity WHERE `id` IN (SELECT DISTINCT (capacity_id) FROM bsi_room) ORDER BY capacity"));
         for ($i = 1; $i <= $capacityrow["capa"]; $i++) {
             $chtml .= '<option value="' . $i . '">' . $i . '</option>';
@@ -151,27 +144,25 @@ class bsiHotelCore
         return $row[0];
     }
     
-    public function getChildcombo(){
-    $child_res=mysql_query("SELECT max(`no_of_child`) as mchild FROM `bsi_room`");
-    $rowchild=mysql_fetch_assoc($child_res);
-    $childhtml="";
-    if($rowchild['mchild']){
-    $childhtml.= '<div class="control-group">
-    <label class="control-label" for="checkInDate">'.CHILD_PER_ROOM_TEXT.':</label>
-    <div class="controls">
-    <select class="input-medium" id="child_per_room" name="child_per_room"><option value="0" selected>'.NONE_TEXT.'</option>' ;
-    
-    for($k=1;$k<=$rowchild['mchild'];$k++){
-    $childhtml.='<option value="'.$k.'">'.$k.'</option>';
+    public function getChildcombo()
+    {
+        $child_res = mysql_query("SELECT max(`no_of_child`) as mchild FROM `bsi_room`");
+        $rowchild  = mysql_fetch_assoc($child_res);
+        $childhtml = "";
+        if ($rowchild['mchild']) {
+            $childhtml .= '<div class="control-group">
+            					<label class="control-label" for="checkInDate">' . CHILD_PER_ROOM_TEXT . ':</label>
+								<div class="controls">
+									<select class="input-medium" id="child_per_room" name="child_per_room">
+										<option value="0" selected>' . NONE_TEXT . '</option>';
+								            for ($k = 1; $k <= $rowchild['mchild']; $k++) {
+								                $childhtml .= '<option value="' . $k . '">' . $k . '</option>';
+								            }
+			$childhtml .= ' </select></div></div>';
+        }
+        return $childhtml;
     }
-    $childhtml.=' </select></div></div>';
-    }
-    
-    return $childhtml;
-    }
-    
-    
-    
+
     public function getExchangemoney_update()
     {
         $sql      = mysql_query("select * from bsi_currency where default_c = 0");
@@ -230,9 +221,9 @@ class bsiHotelCore
         
         $sql   = mysql_query("select * from bsi_currency order by currency_code");
         $combo = '<div class="control-group">
-				<label class="control-label" for="checkInDate">' . CURRENCY_TEXT . ':</label>
-				<div class="controls">
-					<select class="input-medium" name="currency" id="currency">';
+						<label class="control-label" for="checkInDate">' . CURRENCY_TEXT . ':</label>
+						<div class="controls">
+								<select class="input-medium" name="currency" id="currency">';
         while ($row = mysql_fetch_assoc($sql)) {
             if ($row['currency_code'] == $c_code)
                 $combo .= '<option value="' . $row["currency_code"] . '"  selected="selected">' . $row['currency_code'] . '</option>';
@@ -240,8 +231,8 @@ class bsiHotelCore
                 $combo .= '<option value="' . $row["currency_code"] . '">' . $row['currency_code'] . '</option>';
         }
         $combo .= '  </select>
-					</div>
-				</div>';
+							</div>
+					</div>';
         if (mysql_num_rows($sql) == 1) {
             
             $combo = '<input type="hidden" name="currency" value="' . $this->currency_code() . '" />';
@@ -260,7 +251,6 @@ class bsiHotelCore
             else
                 $combo .= '<option value="' . $row["currency_code"] . '">' . $row['currency_code'] . '</option>';
         }
-        
         $combo .= '</select>';
         if (mysql_num_rows($sql) == 1) {
             $combo = '';
@@ -276,17 +266,13 @@ class bsiHotelCore
                     $this->getExchangemoney_update();
                     mysql_query("update bsi_configure set conf_value='" . time() . "' where conf_key='conf_currency_update_time'");
                 }
-                
-                
             } else {
                 $this->getExchangemoney_update();
                 mysql_query("update bsi_configure set conf_value='" . time() . "' where conf_key='conf_currency_update_time'");
             }
-            
         } else {
             $this->getExchangemoney_update();
         }
-        
     }
     
     public function roomtype_photos($rid, $cid)
@@ -297,12 +283,10 @@ class bsiHotelCore
         if (mysql_num_rows($sql)) {
             while ($row = mysql_fetch_assoc($sql)) {
                 $list_img .= '<li><a class="group_' . $rid . '_' . $cid . '" href="gallery/' . $row['img_path'] . '" style="text-decoration:none; " ><img src="gallery/thumb_' . $row['img_path'] . '" style="border-style: none" /></a></li>';
-                
             }
         } else {
             $list_img .= '<li><img src="images/no_photo.jpg" /></li>';
         }
-        
         return $list_img;
     }
     
@@ -312,7 +296,6 @@ class bsiHotelCore
             $df = 'yy' . $this->config['conf_dateformat'];
         else
             $df = $this->config['conf_dateformat'] . 'yy';
-        
         return $df;
     }
 }

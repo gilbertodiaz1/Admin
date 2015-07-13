@@ -177,8 +177,8 @@ class bsiSearch
     public function getAvailableRooms($roomTypeId, $roomTypeName, $capcityid)
     {
         global $bsiCore;
-        $currency_symbol                = 'USD';
-        $searchresult                   = array(
+        $currency_symbol = 'USD';
+        $searchresult = array(
             'roomtypeid' => $roomTypeId,
             'roomtypename' => $roomTypeName,
             'capacityid' => $capcityid,
@@ -186,17 +186,17 @@ class bsiSearch
             'capacity' => $this->multiCapacity[$capcityid]['capval'],
             'maxchild' => $this->childPerRoom
         );
-        $room_count                     = 0;
-        $dropdown_html                  = '<option value="0" selected="selected">0</option>';
-        $price_details_html             = '';
-        $total_price_amount             = 0;
-        $calculated_extraprice          = 0;
-        $total_specail_price            = 0;
-        $specail_price_flag             = 0;
-        $extraSearchParam               = "";
-        $minimum_night_flg              = 1;
-        $variable_concat                = 1;
-        $searchsql                      = "
+        $room_count = 0;
+        $dropdown_html = '<option value="0" selected="selected">0</option>';
+        $price_details_html = '';
+        $total_price_amount = 0;
+        $calculated_extraprice = 0;
+        $total_specail_price = 0;
+        $specail_price_flag = 0;
+        $extraSearchParam = "";
+        $minimum_night_flg = 1;
+        $variable_concat = 1;
+        $searchsql = "
         SELECT rm.room_ID, rm.room_no
         FROM bsi_room rm
         WHERE rm.roomtype_id = " . $roomTypeId . "
@@ -224,11 +224,11 @@ class bsiSearch
         if ($tmpctr >= 1) {
             $totalDays = $this->getDateRangeArray($this->mysqlCheckInDate, $this->mysqlCheckOutDate);
             $totalamt3 = 0;
-            $dayName   = array_count_values($totalDays[1]);
-            $_month    = date('M', strtotime($this->mysqlCheckInDate));
-            $month_    = date('M', strtotime($this->mysqlCheckOutDate));
-            $_color    = '#f2f2f2';
-            $color_    = '#f2f2f2';
+            $dayName = array_count_values($totalDays[1]);
+            $_month = date('M', strtotime($this->mysqlCheckInDate));
+            $month_ = date('M', strtotime($this->mysqlCheckOutDate));
+            $_color = '#f2f2f2';
+            $color_ = '#f2f2f2';
             if ($_month == $month_) {
                 $mon = $_month;
             } else {
@@ -237,8 +237,8 @@ class bsiSearch
             $price_details_html = '<tr><td bgcolor=' . $_color . '><b>' . MONTH . '</b></td>';
             foreach ($dayName as $days => $totalnum) {
                 $$days = 0;
-                $h1    = $days . $variable_concat;
-                $$h1   = 0;
+                $h1 = $days . $variable_concat;
+                $$h1 = 0;
             }
             $total_child_price  = 0;
             $total_child_price2 = 0;
@@ -249,14 +249,14 @@ class bsiSearch
                     $row = mysql_fetch_assoc($pricesql);
                 } else {
                     $pricesql2 = mysql_query("SELECT * FROM bsi_priceplan WHERE roomtype_id = " . $roomTypeId . " AND capacity_id = " . $capcityid . " AND  default_plan=1");
-                    $row       = mysql_fetch_assoc($pricesql2);
+                    $row = mysql_fetch_assoc($pricesql2);
                 }
                 $day = date('D', strtotime($val));
                 $$day += $row[strtolower($day)];
                 //*************************** specail offer ******************
                 $sql_sp = mysql_query("select * from bsi_special_offer where '" . $val . "' between  `start_date` and `end_date` and (room_type=" . $roomTypeId . " or room_type=0)");
-                $row99  = mysql_fetch_assoc($sql_sp);
-                $h2     = $day . $variable_concat;
+                $row99 = mysql_fetch_assoc($sql_sp);
+                $h2 = $day . $variable_concat;
                 if (mysql_num_rows($sql_sp)) {
                     $c999 = round($row[strtolower($day)] - (($row[strtolower($day)] * $row99['price_deduc']) / 100), 1);
                     $$h2 += $c999;
@@ -277,7 +277,7 @@ class bsiSearch
                         $chrow = mysql_fetch_assoc($childpricesql);
                     } else {
                         $childpricesql2 = mysql_query("SELECT * FROM bsi_priceplan WHERE roomtype_id = " . $roomTypeId . " AND capacity_id =1001 AND  default_plan=1");
-                        $chrow          = mysql_fetch_assoc($childpricesql2);
+                        $chrow = mysql_fetch_assoc($childpricesql2);
                     }
                     $day = date('D', strtotime($val));
                     $$day += ($chrow[strtolower($day)] * $this->childPerRoom);
@@ -300,19 +300,19 @@ class bsiSearch
                 }
             }
             $night_count_at_customprice = 0;
-            $searchresult['prices']     = array();
+            $searchresult['prices'] = array();
             foreach ($dayName as $days => $totalnum) {
-                $totalamt3           = $totalamt3 + $$days;
-                $h3                  = $days . $variable_concat;
+                $totalamt3 = $totalamt3 + $$days;
+                $h3 = $days . $variable_concat;
                 $total_specail_price = $total_specail_price + $$h3;
             }
             $total_price_amount = $totalamt3;
             // echo $total_specail_price;
             if ($bsiCore->config['conf_tax_amount'] > 0 && $bsiCore->config['conf_price_with_tax'] == 1) {
-                $total_price_amount  = $total_price_amount + (($total_price_amount * $bsiCore->config['conf_tax_amount']) / 100);
+                $total_price_amount = $total_price_amount + (($total_price_amount * $bsiCore->config['conf_tax_amount']) / 100);
                 $total_specail_price = $total_specail_price + (($total_specail_price * $bsiCore->config['conf_tax_amount']) / 100);
-                $total_child_price   = $total_child_price + (($total_child_price * $bsiCore->config['conf_tax_amount']) / 100);
-                $total_child_price2  = $total_child_price2 + (($total_child_price2 * $bsiCore->config['conf_tax_amount']) / 100);
+                $total_child_price = $total_child_price + (($total_child_price * $bsiCore->config['conf_tax_amount']) / 100);
+                $total_child_price2 = $total_child_price2 + (($total_child_price2 * $bsiCore->config['conf_tax_amount']) / 100);
             }
         }
         if ($specail_price_flag) {
