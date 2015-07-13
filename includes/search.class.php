@@ -1,4 +1,5 @@
 <?php
+
 class bsiSearch
 {
     public $checkInDate = '';
@@ -15,6 +16,7 @@ class bsiSearch
     public $multiCapacity = array();
     public $searchCode = "SUCCESS";
     const SEARCH_CODE = "SUCCESS";
+
     function bsiSearch()
     {
         $this->setRequestParams();
@@ -27,6 +29,7 @@ class bsiSearch
             $this->setMySessionVars();
         }
     }
+
     private function setRequestParams()
     {
         global $bsiCore;
@@ -40,10 +43,10 @@ class bsiSearch
         //$this->setMyParamValue($this->childPerRoom, $bsiCore->ClearInput($tmpVar), 0, true);
         $tmpVar = isset($_REQUEST['currency']) ? $_REQUEST['currency'] : $_SESSION['sv_currency'];
         $this->setMyParamValue($this->currency, $bsiCore->ClearInput($tmpVar), 0, true);
-        $this->mysqlCheckInDate  = $bsiCore->getMySqlDate($this->checkInDate);
+        $this->mysqlCheckInDate = $bsiCore->getMySqlDate($this->checkInDate);
         $this->mysqlCheckOutDate = $bsiCore->getMySqlDate($this->checkOutDate);
     }
-    
+
     private function setMyParamValue(&$membervariable, $paramvalue, $defaultvalue, $required = false)
     {
         if ($required) {
@@ -57,6 +60,7 @@ class bsiSearch
             $membervariable = $defaultvalue;
         }
     }
+
     private function setMySessionVars()
     {
         if (isset($_SESSION['sv_checkindate']))
@@ -75,38 +79,40 @@ class bsiSearch
         //    unset($_SESSION['sv_childcount']);
         if (isset($_SESSION['sv_currency']))
             unset($_SESSION['sv_currency']);
-        
-        $_SESSION['sv_checkindate']   = $this->checkInDate;
-        $_SESSION['sv_checkoutdate']  = $this->checkOutDate;
-        $_SESSION['sv_mcheckindate']  = $this->mysqlCheckInDate;
+
+        $_SESSION['sv_checkindate'] = $this->checkInDate;
+        $_SESSION['sv_checkoutdate'] = $this->checkOutDate;
+        $_SESSION['sv_mcheckindate'] = $this->mysqlCheckInDate;
         $_SESSION['sv_mcheckoutdate'] = $this->mysqlCheckOutDate;
-        $_SESSION['sv_nightcount']    = $this->nightCount;
-        $_SESSION['sv_guestperroom']  = $this->guestsPerRoom;
+        $_SESSION['sv_nightcount'] = $this->nightCount;
+        $_SESSION['sv_guestperroom'] = $this->guestsPerRoom;
         //$_SESSION['sv_childcount']    = $this->childPerRoom;
-        $_SESSION['sv_currency']      = $this->currency;
-        $_SESSION['svars_details']    = array();
+        $_SESSION['sv_currency'] = $this->currency;
+        $_SESSION['svars_details'] = array();
     }
-    
+
     private function invalidRequest()
     {
         header('Location: booking-failure.php?error_code=9');
         die;
     }
+
     private function getNightCount()
     {
-        $checkin_date      = getdate(strtotime($this->mysqlCheckInDate));
-        $checkout_date     = getdate(strtotime($this->mysqlCheckOutDate));
-        $checkin_date_new  = mktime(12, 0, 0, $checkin_date['mon'], $checkin_date['mday'], $checkin_date['year']);
+        $checkin_date = getdate(strtotime($this->mysqlCheckInDate));
+        $checkout_date = getdate(strtotime($this->mysqlCheckOutDate));
+        $checkin_date_new = mktime(12, 0, 0, $checkin_date['mon'], $checkin_date['mday'], $checkin_date['year']);
         $checkout_date_new = mktime(12, 0, 0, $checkout_date['mon'], $checkout_date['mday'], $checkout_date['year']);
-        $this->nightCount  = round(abs($checkin_date_new - $checkout_date_new) / 86400);
+        $this->nightCount = round(abs($checkin_date_new - $checkout_date_new) / 86400);
     }
+
     private function getDateRangeArray($startDate, $endDate, $nightAdjustment = true)
     {
-        $date_arr    = array();
-        $day_array   = array();
+        $date_arr = array();
+        $day_array = array();
         $total_array = array();
-        $time_from   = mktime(1, 0, 0, substr($startDate, 5, 2), substr($startDate, 8, 2), substr($startDate, 0, 4));
-        $time_to     = mktime(1, 0, 0, substr($endDate, 5, 2), substr($endDate, 8, 2), substr($endDate, 0, 4));
+        $time_from = mktime(1, 0, 0, substr($startDate, 5, 2), substr($startDate, 8, 2), substr($startDate, 0, 4));
+        $time_to = mktime(1, 0, 0, substr($endDate, 5, 2), substr($endDate, 8, 2), substr($endDate, 0, 4));
         if ($time_to >= $time_from) {
             if ($nightAdjustment) {
                 while ($time_from < $time_to) {
@@ -126,6 +132,7 @@ class bsiSearch
         array_push($total_array, $day_array);
         return $total_array;
     }
+
     private function checkSearchEngine()
     {
         global $bsiCore;
@@ -133,7 +140,7 @@ class bsiSearch
             $this->searchCode = "SEARCH_ENGINE_TURN_OFF";
             return 0;
         }
-        $diffrow  = mysql_fetch_assoc(mysql_query("SELECT DATEDIFF('" . $this->mysqlCheckOutDate . "', '" . $this->mysqlCheckInDate . "') AS INOUTDIFF"));
+        $diffrow = mysql_fetch_assoc(mysql_query("SELECT DATEDIFF('" . $this->mysqlCheckOutDate . "', '" . $this->mysqlCheckInDate . "') AS INOUTDIFF"));
         $dateDiff = intval($diffrow['INOUTDIFF']);
         if ($dateDiff < 0) {
             $this->searchCode = "OUT_BEFORE_IN";
@@ -144,12 +151,13 @@ class bsiSearch
         }
         $userInputDate = strtotime($this->mysqlCheckInDate);
         $hotelDateTime = strtotime(date("Y-m-d"));
-        $timezonediff  = ($userInputDate - $hotelDateTime);
+        $timezonediff = ($userInputDate - $hotelDateTime);
         if ($timezonediff < 0) {
             $this->searchCode = "TIME_ZONE_MISMATCH";
             return 0;
         }
     }
+
     private function loadRoomTypes()
     {
         $sql = mysql_query("SELECT * FROM bsi_roomtype");
@@ -161,6 +169,7 @@ class bsiSearch
         }
         mysql_free_result($sql);
     }
+
     private function loadMultiCapacity()
     {
         $sql = mysql_query("SELECT * FROM bsi_capacity WHERE capacity >= " . $this->guestsPerRoom);
@@ -169,11 +178,11 @@ class bsiSearch
                 'capval' => $currentrow["capacity"],
                 'captitle' => $currentrow["title"]
             );
-            
+
         }
         mysql_free_result($sql);
     }
-    
+
     public function getAvailableRooms($roomTypeId, $roomTypeName, $capcityid)
     {
         global $bsiCore;
@@ -209,8 +218,8 @@ class bsiSearch
             AND resv.room_type_id = " . $roomTypeId . "
             AND (('" . $this->mysqlCheckInDate . "' BETWEEN boks.start_date AND DATE_SUB(boks.end_date, INTERVAL 1 DAY))
                                                                                                                 OR (DATE_SUB('" . $this->mysqlCheckOutDate . "', INTERVAL 1 DAY) BETWEEN boks.start_date AND DATE_SUB(boks.end_date, INTERVAL 1 DAY))               OR (boks.start_date BETWEEN '" . $this->mysqlCheckInDate . "' AND DATE_SUB('" . $this->mysqlCheckOutDate . "', INTERVAL 1 DAY))                          OR (DATE_SUB(boks.end_date, INTERVAL 1 DAY) BETWEEN '" . $this->mysqlCheckInDate . "' AND DATE_SUB('" . $this->mysqlCheckOutDate . "', INTERVAL 1 DAY))))";
-        $sql                            = mysql_query($searchsql);
-        $tmpctr                         = 1;
+        $sql = mysql_query($searchsql);
+        $tmpctr = 1;
         $searchresult['availablerooms'] = array();
         while ($currentrow = mysql_fetch_assoc($sql)) {
             $dropdown_html .= '<option value="' . $tmpctr . '">' . $tmpctr . '</option>';
@@ -240,7 +249,7 @@ class bsiSearch
                 $h1 = $days . $variable_concat;
                 $$h1 = 0;
             }
-            $total_child_price  = 0;
+            $total_child_price = 0;
             $total_child_price2 = 0;
             $price_details_html .= '<td bgcolor=' . $color_ . ' align="right"><b>' . $this->nightCount . ' Night(s)</b></td></tr>';
             foreach ($totalDays[0] as $date2 => $val) {
@@ -271,7 +280,7 @@ class bsiSearch
                 //*************************** specail offer ******************
                 $chld_row2 = mysql_fetch_assoc(mysql_query("SELECT distinct(`no_of_child`) FROM `bsi_room` WHERE `capacity_id`=" . $capcityid . " and `roomtype_id`=" . $roomTypeId . ""));
                 if ($chld_row2['no_of_child'] >= $this->childPerRoom && $this->childPerRoom != 0) {
-                    $child_flag    = true;
+                    $child_flag = true;
                     $childpricesql = mysql_query("SELECT * FROM bsi_priceplan WHERE roomtype_id = " . $roomTypeId . " AND capacity_id =1001 AND ('" . $val . "' BETWEEN start_date AND end_date)");
                     if (mysql_num_rows($pricesql)) {
                         $chrow = mysql_fetch_assoc($childpricesql);
@@ -286,7 +295,7 @@ class bsiSearch
                     //$h22=$day.$variable_concat;
                     if (mysql_num_rows($sql_sp1)) {
                         $row999 = mysql_fetch_assoc($sql_sp1);
-                        $c999   = round(($chrow[strtolower($day)] * $this->childPerRoom) - ((($chrow[strtolower($day)] * $this->childPerRoom) * $row999['price_deduc']) / 100), 1);
+                        $c999 = round(($chrow[strtolower($day)] * $this->childPerRoom) - ((($chrow[strtolower($day)] * $this->childPerRoom) * $row999['price_deduc']) / 100), 1);
                         //echo $c999;
                         $$h2 += $c999;
                         $total_child_price2 += $c999;
@@ -335,4 +344,5 @@ class bsiSearch
         );
     }
 }
+
 ?>

@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ea0a22d-4b45-423f-92e2-2b2ead5adc80" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/wizard/4.png" afterPath="$PROJECT_DIR$/images/wizard/4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/wizard/5.png" afterPath="$PROJECT_DIR$/images/wizard/5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg_direction_nav.png" afterPath="$PROJECT_DIR$/images/bg_direction_nav.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/border.png" afterPath="$PROJECT_DIR$/images/border.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/border1.png" afterPath="$PROJECT_DIR$/images/border1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/checked.png" afterPath="$PROJECT_DIR$/images/checked.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/controls.png" afterPath="$PROJECT_DIR$/images/controls.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/error.png" afterPath="$PROJECT_DIR$/images/error.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon_special_offer.png" afterPath="$PROJECT_DIR$/images/icon_special_offer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/loading_background.png" afterPath="$PROJECT_DIR$/images/loading_background.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/month.png" afterPath="$PROJECT_DIR$/images/month.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/no_photo.jpg" afterPath="$PROJECT_DIR$/images/no_photo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/offer.png" afterPath="$PROJECT_DIR$/images/offer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/overlay.png" afterPath="$PROJECT_DIR$/images/overlay.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/steps1.png" afterPath="$PROJECT_DIR$/images/steps1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/steps11.png" afterPath="$PROJECT_DIR$/images/steps11.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/steps2.png" afterPath="$PROJECT_DIR$/images/steps2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/steps3.png" afterPath="$PROJECT_DIR$/images/steps3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/steps4.png" afterPath="$PROJECT_DIR$/images/steps4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/steps5.png" afterPath="$PROJECT_DIR$/images/steps5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/images/ui-icons_454545_256x240.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking-search.php" afterPath="$PROJECT_DIR$/booking-search.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/conf.class.php" afterPath="$PROJECT_DIR$/includes/conf.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking_details.php" afterPath="$PROJECT_DIR$/booking_details.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/search.class.php" afterPath="$PROJECT_DIR$/includes/search.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -59,18 +37,30 @@
       <file leaf-file-name="booking-search.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/booking-search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2474804">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.27199075">
+              <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1436756381251" expanded="true" signature="7774:7854" placeholder="select * fro..bsi_room..." />
-                <marker date="1436756381251" expanded="true" signature="20780:20803" placeholder="..." />
-                <marker date="1436756381251" expanded="true" signature="20955:20974" placeholder="..." />
-                <marker date="1436756381251" expanded="true" signature="21294:21321" placeholder="..." />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1436764546701" expanded="true" signature="2708:2792" placeholder="select * fro..bsi_room..." />
+                <marker date="1436764546701" expanded="true" signature="14643:14670" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -79,23 +69,64 @@
       <file leaf-file-name="search.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/search.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-117.03846">
-              <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
+            <state vertical-scroll-proportion="-10.454545">
+              <caret line="336" column="44" selection-start-line="336" selection-start-column="30" selection-end-line="336" selection-end-column="44" />
               <folding>
-                <marker date="1436756984112" expanded="true" signature="6779:6805" placeholder="SELECT * FRO..bsi_roomtype..." />
-                <marker date="1436756984112" expanded="true" signature="7159:7204" placeholder="SELECT * FRO..bsi_capacity..." />
-                <marker date="1436756984112" expanded="true" signature="8435:8588" placeholder="SELECT rm.ro..bsi_room..." />
-                <marker date="1436756984112" expanded="true" signature="8435:8611" placeholder="SELECT rm.ro..bsi_room..." />
-                <marker date="1436756984112" expanded="true" signature="8435:9570" placeholder="SELECT rm.ro..bsi_room..." />
-                <marker date="1436756984112" expanded="true" signature="11275:11432" placeholder="SELECT * FRO..bsi_priceplan..." />
-                <marker date="1436756984112" expanded="true" signature="11613:11737" placeholder="SELECT * FRO..bsi_priceplan..." />
-                <marker date="1436756984112" expanded="true" signature="12035:12097" placeholder="select * fro..bsi_special_offer..." />
-                <marker date="1436756984112" expanded="true" signature="12035:12175" placeholder="select * fro..bsi_special_offer..." />
-                <marker date="1436756984112" expanded="true" signature="12940:13064" placeholder="SELECT disti..." />
-                <marker date="1436756984112" expanded="true" signature="13261:13403" placeholder="SELECT * FRO..bsi_priceplan..." />
-                <marker date="1436756984112" expanded="true" signature="13612:13721" placeholder="SELECT * FRO..bsi_priceplan..." />
-                <marker date="1436756984112" expanded="true" signature="14077:14217" placeholder="select * fro..bsi_special_offer..." />
-                <marker date="1436756984112" expanded="true" signature="14166:14217" placeholder="select * fro..bsi_special_offer..." />
+                <marker date="1436759745042" expanded="true" signature="6730:6756" placeholder="SELECT * FRO..bsi_roomtype..." />
+                <marker date="1436759745042" expanded="true" signature="7111:7156" placeholder="SELECT * FRO..bsi_capacity..." />
+                <marker date="1436759745042" expanded="true" signature="8371:8524" placeholder="SELECT rm.ro..bsi_room..." />
+                <marker date="1436759745042" expanded="true" signature="8371:8547" placeholder="SELECT rm.ro..bsi_room..." />
+                <marker date="1436759745042" expanded="true" signature="8371:9506" placeholder="SELECT rm.ro..bsi_room..." />
+                <marker date="1436759745042" expanded="true" signature="11159:11316" placeholder="SELECT * FRO..bsi_priceplan..." />
+                <marker date="1436759745042" expanded="true" signature="11497:11621" placeholder="SELECT * FRO..bsi_priceplan..." />
+                <marker date="1436759745042" expanded="true" signature="11919:11981" placeholder="select * fro..bsi_special_offer..." />
+                <marker date="1436759745042" expanded="true" signature="11919:12059" placeholder="select * fro..bsi_special_offer..." />
+                <marker date="1436759745042" expanded="true" signature="12824:12948" placeholder="SELECT disti..." />
+                <marker date="1436759745042" expanded="true" signature="13142:13284" placeholder="SELECT * FRO..bsi_priceplan..." />
+                <marker date="1436759745042" expanded="true" signature="13493:13602" placeholder="SELECT * FRO..bsi_priceplan..." />
+                <marker date="1436759745042" expanded="true" signature="13958:14098" placeholder="select * fro..bsi_special_offer..." />
+                <marker date="1436759745042" expanded="true" signature="14047:14098" placeholder="select * fro..bsi_special_offer..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/conf.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.109091">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <folding>
+                <marker date="1436749954395" expanded="true" signature="306:416" placeholder="SELECT conf_..bsi_configure..." />
+                <marker date="1436749954395" expanded="true" signature="2237:2361" placeholder="SELECT Max(c..bsi_capacity..." />
+                <marker date="1436749954395" expanded="true" signature="2647:2798" placeholder="SELECT booki..bsi_bookings..." />
+                <marker date="1436749954395" expanded="true" signature="2883:2961" placeholder="DELETE FROM ..." />
+                <marker date="1436749954395" expanded="true" signature="2990:3073" placeholder="DELETE FROM ..." />
+                <marker date="1436749954395" expanded="true" signature="3102:3181" placeholder="DELETE FROM ..." />
+                <marker date="1436749954395" expanded="true" signature="3363:3415" placeholder="SELECT * FRO..bsi_payment_gateway..." />
+                <marker date="1436749954395" expanded="true" signature="5273:5352" placeholder="SELECT gatew..bsi_payment_gateway..." />
+                <marker date="1436749954395" expanded="true" signature="5505:5562" placeholder="select * fro..bsi_invoice..." />
+                <marker date="1436749954395" expanded="true" signature="5709:5789" placeholder="select gatew..bsi_payment_gateway..." />
+                <marker date="1436749954395" expanded="true" signature="5905:5956" placeholder="SELECT max(`..." />
+                <marker date="1436749954395" expanded="true" signature="6125:6402" placeholder="..." />
+                <marker date="1436749954395" expanded="true" signature="6257:6402" placeholder="..." />
+                <marker date="1436749954395" expanded="true" signature="6338:6402" placeholder="..." />
+                <marker date="1436749954395" expanded="true" signature="6756:6802" placeholder="select * fro..bsi_currency..." />
+                <marker date="1436749954395" expanded="true" signature="6857:6903" placeholder="select * fro..bsi_currency..." />
+                <marker date="1436749954395" expanded="true" signature="7935:8041" placeholder="update bsi_c..." />
+                <marker date="1436749954395" expanded="true" signature="8190:8262" placeholder="select * fro..bsi_currency..." />
+                <marker date="1436749954395" expanded="true" signature="8515:8561" placeholder="select * fro..bsi_currency..." />
+                <marker date="1436749954395" expanded="true" signature="8718:8764" placeholder="select * fro..bsi_currency..." />
+                <marker date="1436749954395" expanded="true" signature="8929:8995" placeholder="select * fro..bsi_currency..." />
+                <marker date="1436749954395" expanded="true" signature="9149:9198" placeholder="select * fro..bsi_currency..." />
+                <marker date="1436749954395" expanded="true" signature="9246:9427" placeholder="..." />
+                <marker date="1436749954395" expanded="true" signature="9359:9427" placeholder="..." />
+                <marker date="1436749954395" expanded="true" signature="10265:10314" placeholder="select * fro..bsi_currency..." />
+                <marker date="1436749954395" expanded="true" signature="11157:11252" placeholder="update bsi_c..." />
+                <marker date="1436749954395" expanded="true" signature="11374:11469" placeholder="update bsi_c..." />
+                <marker date="1436749954395" expanded="true" signature="11658:11731" placeholder="select * fro..bsi_gallery..." />
+                <marker date="1436749954395" expanded="true" signature="12003:12025" placeholder="..." />
+                <marker date="1436749954395" expanded="true" signature="12085:12103" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -104,8 +135,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="14" column="79" selection-start-line="10" selection-start-column="7" selection-end-line="14" selection-end-column="79" />
+            <state vertical-scroll-proportion="-16.692308">
+              <caret line="81" column="89" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="89" />
               <folding />
             </state>
           </provider>
@@ -125,9 +156,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../../php/php.ini" />
-        <option value="$PROJECT_DIR$/booking-search.php" />
-        <option value="$PROJECT_DIR$/includes/search.class.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/includes/search.class.php" />
+        <option value="$PROJECT_DIR$/booking_details.php" />
+        <option value="$PROJECT_DIR$/booking-search.php" />
       </list>
     </option>
   </component>
@@ -202,6 +234,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,7 +349,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1546875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -354,15 +400,27 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1436756381251" expanded="true" signature="7774:7854" placeholder="select * fro..bsi_room..." />
-            <marker date="1436756381251" expanded="true" signature="20780:20803" placeholder="..." />
-            <marker date="1436756381251" expanded="true" signature="20955:20974" placeholder="..." />
-            <marker date="1436756381251" expanded="true" signature="21294:21321" placeholder="..." />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1436764546701" expanded="true" signature="2708:2792" placeholder="select * fro..bsi_room..." />
+            <marker date="1436764546701" expanded="true" signature="14643:14670" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -372,20 +430,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
-            <marker date="1436756984112" expanded="true" signature="6779:6805" placeholder="SELECT * FRO..bsi_roomtype..." />
-            <marker date="1436756984112" expanded="true" signature="7159:7204" placeholder="SELECT * FRO..bsi_capacity..." />
-            <marker date="1436756984112" expanded="true" signature="8435:8588" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="8435:8611" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="8435:9570" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="11275:11432" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="11613:11737" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="12035:12097" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="12035:12175" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="12940:13064" placeholder="SELECT disti..." />
-            <marker date="1436756984112" expanded="true" signature="13261:13403" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="13612:13721" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="14077:14217" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="14166:14217" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="6730:6756" placeholder="SELECT * FRO..bsi_roomtype..." />
+            <marker date="1436759745042" expanded="true" signature="7111:7156" placeholder="SELECT * FRO..bsi_capacity..." />
+            <marker date="1436759745042" expanded="true" signature="8371:8524" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="8371:8547" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="8371:9506" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="11159:11316" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="11497:11621" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="11919:11981" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="11919:12059" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="12824:12948" placeholder="SELECT disti..." />
+            <marker date="1436759745042" expanded="true" signature="13142:13284" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="13493:13602" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="13958:14098" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="14047:14098" placeholder="select * fro..bsi_special_offer..." />
           </folding>
         </state>
       </provider>
@@ -403,15 +461,27 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1436756381251" expanded="true" signature="7774:7854" placeholder="select * fro..bsi_room..." />
-            <marker date="1436756381251" expanded="true" signature="20780:20803" placeholder="..." />
-            <marker date="1436756381251" expanded="true" signature="20955:20974" placeholder="..." />
-            <marker date="1436756381251" expanded="true" signature="21294:21321" placeholder="..." />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1436764546701" expanded="true" signature="2708:2792" placeholder="select * fro..bsi_room..." />
+            <marker date="1436764546701" expanded="true" signature="14643:14670" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -421,20 +491,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding>
-            <marker date="1436756984112" expanded="true" signature="6779:6805" placeholder="SELECT * FRO..bsi_roomtype..." />
-            <marker date="1436756984112" expanded="true" signature="7159:7204" placeholder="SELECT * FRO..bsi_capacity..." />
-            <marker date="1436756984112" expanded="true" signature="8435:8588" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="8435:8611" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="8435:9570" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="11275:11432" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="11613:11737" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="12035:12097" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="12035:12175" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="12940:13064" placeholder="SELECT disti..." />
-            <marker date="1436756984112" expanded="true" signature="13261:13403" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="13612:13721" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="14077:14217" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="14166:14217" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="6730:6756" placeholder="SELECT * FRO..bsi_roomtype..." />
+            <marker date="1436759745042" expanded="true" signature="7111:7156" placeholder="SELECT * FRO..bsi_capacity..." />
+            <marker date="1436759745042" expanded="true" signature="8371:8524" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="8371:8547" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="8371:9506" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="11159:11316" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="11497:11621" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="11919:11981" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="11919:12059" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="12824:12948" placeholder="SELECT disti..." />
+            <marker date="1436759745042" expanded="true" signature="13142:13284" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="13493:13602" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="13958:14098" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="14047:14098" placeholder="select * fro..bsi_special_offer..." />
           </folding>
         </state>
       </provider>
@@ -452,15 +522,27 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1436756381251" expanded="true" signature="7774:7854" placeholder="select * fro..bsi_room..." />
-            <marker date="1436756381251" expanded="true" signature="20780:20803" placeholder="..." />
-            <marker date="1436756381251" expanded="true" signature="20955:20974" placeholder="..." />
-            <marker date="1436756381251" expanded="true" signature="21294:21321" placeholder="..." />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1436764546701" expanded="true" signature="2708:2792" placeholder="select * fro..bsi_room..." />
+            <marker date="1436764546701" expanded="true" signature="14643:14670" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -470,20 +552,20 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1436756984112" expanded="true" signature="6779:6805" placeholder="SELECT * FRO..bsi_roomtype..." />
-            <marker date="1436756984112" expanded="true" signature="7159:7204" placeholder="SELECT * FRO..bsi_capacity..." />
-            <marker date="1436756984112" expanded="true" signature="8435:8588" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="8435:8611" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="8435:9570" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="11275:11432" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="11613:11737" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="12035:12097" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="12035:12175" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="12940:13064" placeholder="SELECT disti..." />
-            <marker date="1436756984112" expanded="true" signature="13261:13403" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="13612:13721" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="14077:14217" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="14166:14217" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="6730:6756" placeholder="SELECT * FRO..bsi_roomtype..." />
+            <marker date="1436759745042" expanded="true" signature="7111:7156" placeholder="SELECT * FRO..bsi_capacity..." />
+            <marker date="1436759745042" expanded="true" signature="8371:8524" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="8371:8547" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="8371:9506" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="11159:11316" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="11497:11621" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="11919:11981" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="11919:12059" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="12824:12948" placeholder="SELECT disti..." />
+            <marker date="1436759745042" expanded="true" signature="13142:13284" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="13493:13602" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="13958:14098" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="14047:14098" placeholder="select * fro..bsi_special_offer..." />
           </folding>
         </state>
       </provider>
@@ -501,15 +583,27 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1436756381251" expanded="true" signature="7774:7854" placeholder="select * fro..bsi_room..." />
-            <marker date="1436756381251" expanded="true" signature="20780:20803" placeholder="..." />
-            <marker date="1436756381251" expanded="true" signature="20955:20974" placeholder="..." />
-            <marker date="1436756381251" expanded="true" signature="21294:21321" placeholder="..." />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1436764546701" expanded="true" signature="2708:2792" placeholder="select * fro..bsi_room..." />
+            <marker date="1436764546701" expanded="true" signature="14643:14670" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -529,51 +623,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/search.class.php">
+    <entry file="file://$PROJECT_DIR$/booking_details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-117.03846">
-          <caret line="179" column="24" selection-start-line="179" selection-start-column="24" selection-end-line="179" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.26651737">
+          <caret line="14" column="52" selection-start-line="0" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
           <folding>
-            <marker date="1436756984112" expanded="true" signature="6779:6805" placeholder="SELECT * FRO..bsi_roomtype..." />
-            <marker date="1436756984112" expanded="true" signature="7159:7204" placeholder="SELECT * FRO..bsi_capacity..." />
-            <marker date="1436756984112" expanded="true" signature="8435:8588" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="8435:8611" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="8435:9570" placeholder="SELECT rm.ro..bsi_room..." />
-            <marker date="1436756984112" expanded="true" signature="11275:11432" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="11613:11737" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="12035:12097" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="12035:12175" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="12940:13064" placeholder="SELECT disti..." />
-            <marker date="1436756984112" expanded="true" signature="13261:13403" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="13612:13721" placeholder="SELECT * FRO..bsi_priceplan..." />
-            <marker date="1436756984112" expanded="true" signature="14077:14217" placeholder="select * fro..bsi_special_offer..." />
-            <marker date="1436756984112" expanded="true" signature="14166:14217" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759773906" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846">
-          <caret line="14" column="79" selection-start-line="10" selection-start-column="7" selection-end-line="14" selection-end-column="79" />
+        <state vertical-scroll-proportion="-16.692308">
+          <caret line="81" column="89" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="89" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/conf.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.109091">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <marker date="1436749954395" expanded="true" signature="306:416" placeholder="SELECT conf_..bsi_configure..." />
+            <marker date="1436749954395" expanded="true" signature="2237:2361" placeholder="SELECT Max(c..bsi_capacity..." />
+            <marker date="1436749954395" expanded="true" signature="2647:2798" placeholder="SELECT booki..bsi_bookings..." />
+            <marker date="1436749954395" expanded="true" signature="2883:2961" placeholder="DELETE FROM ..." />
+            <marker date="1436749954395" expanded="true" signature="2990:3073" placeholder="DELETE FROM ..." />
+            <marker date="1436749954395" expanded="true" signature="3102:3181" placeholder="DELETE FROM ..." />
+            <marker date="1436749954395" expanded="true" signature="3363:3415" placeholder="SELECT * FRO..bsi_payment_gateway..." />
+            <marker date="1436749954395" expanded="true" signature="5273:5352" placeholder="SELECT gatew..bsi_payment_gateway..." />
+            <marker date="1436749954395" expanded="true" signature="5505:5562" placeholder="select * fro..bsi_invoice..." />
+            <marker date="1436749954395" expanded="true" signature="5709:5789" placeholder="select gatew..bsi_payment_gateway..." />
+            <marker date="1436749954395" expanded="true" signature="5905:5956" placeholder="SELECT max(`..." />
+            <marker date="1436749954395" expanded="true" signature="6125:6402" placeholder="..." />
+            <marker date="1436749954395" expanded="true" signature="6257:6402" placeholder="..." />
+            <marker date="1436749954395" expanded="true" signature="6338:6402" placeholder="..." />
+            <marker date="1436749954395" expanded="true" signature="6756:6802" placeholder="select * fro..bsi_currency..." />
+            <marker date="1436749954395" expanded="true" signature="6857:6903" placeholder="select * fro..bsi_currency..." />
+            <marker date="1436749954395" expanded="true" signature="7935:8041" placeholder="update bsi_c..." />
+            <marker date="1436749954395" expanded="true" signature="8190:8262" placeholder="select * fro..bsi_currency..." />
+            <marker date="1436749954395" expanded="true" signature="8515:8561" placeholder="select * fro..bsi_currency..." />
+            <marker date="1436749954395" expanded="true" signature="8718:8764" placeholder="select * fro..bsi_currency..." />
+            <marker date="1436749954395" expanded="true" signature="8929:8995" placeholder="select * fro..bsi_currency..." />
+            <marker date="1436749954395" expanded="true" signature="9149:9198" placeholder="select * fro..bsi_currency..." />
+            <marker date="1436749954395" expanded="true" signature="9246:9427" placeholder="..." />
+            <marker date="1436749954395" expanded="true" signature="9359:9427" placeholder="..." />
+            <marker date="1436749954395" expanded="true" signature="10265:10314" placeholder="select * fro..bsi_currency..." />
+            <marker date="1436749954395" expanded="true" signature="11157:11252" placeholder="update bsi_c..." />
+            <marker date="1436749954395" expanded="true" signature="11374:11469" placeholder="update bsi_c..." />
+            <marker date="1436749954395" expanded="true" signature="11658:11731" placeholder="select * fro..bsi_gallery..." />
+            <marker date="1436749954395" expanded="true" signature="12003:12025" placeholder="..." />
+            <marker date="1436749954395" expanded="true" signature="12085:12103" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/search.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.454545">
+          <caret line="336" column="44" selection-start-line="336" selection-start-column="30" selection-end-line="336" selection-end-column="44" />
+          <folding>
+            <marker date="1436759745042" expanded="true" signature="6730:6756" placeholder="SELECT * FRO..bsi_roomtype..." />
+            <marker date="1436759745042" expanded="true" signature="7111:7156" placeholder="SELECT * FRO..bsi_capacity..." />
+            <marker date="1436759745042" expanded="true" signature="8371:8524" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="8371:8547" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="8371:9506" placeholder="SELECT rm.ro..bsi_room..." />
+            <marker date="1436759745042" expanded="true" signature="11159:11316" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="11497:11621" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="11919:11981" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="11919:12059" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="12824:12948" placeholder="SELECT disti..." />
+            <marker date="1436759745042" expanded="true" signature="13142:13284" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="13493:13602" placeholder="SELECT * FRO..bsi_priceplan..." />
+            <marker date="1436759745042" expanded="true" signature="13958:14098" placeholder="select * fro..bsi_special_offer..." />
+            <marker date="1436759745042" expanded="true" signature="14047:14098" placeholder="select * fro..bsi_special_offer..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/booking-search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2474804">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.27199075">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1436756381251" expanded="true" signature="7774:7854" placeholder="select * fro..bsi_room..." />
-            <marker date="1436756381251" expanded="true" signature="20780:20803" placeholder="..." />
-            <marker date="1436756381251" expanded="true" signature="20955:20974" placeholder="..." />
-            <marker date="1436756381251" expanded="true" signature="21294:21321" placeholder="..." />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#h5#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#td#2;n#tr#2;n#table#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1436764546701" expanded="true" signature="2708:2792" placeholder="select * fro..bsi_room..." />
+            <marker date="1436764546701" expanded="true" signature="14643:14670" placeholder="..." />
           </folding>
         </state>
       </provider>
