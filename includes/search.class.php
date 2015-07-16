@@ -75,8 +75,8 @@ class bsiSearch
             unset($_SESSION['sv_nightcount']);
         if (isset($_SESSION['sv_guestperroom']))
             unset($_SESSION['sv_guestperroom']);
-        //if (isset($_SESSION['sv_childcount']))
-        //    unset($_SESSION['sv_childcount']);
+        if (isset($_SESSION['sv_childcount']))
+            unset($_SESSION['sv_childcount']);
         if (isset($_SESSION['sv_currency']))
             unset($_SESSION['sv_currency']);
 
@@ -86,9 +86,10 @@ class bsiSearch
         $_SESSION['sv_mcheckoutdate'] = $this->mysqlCheckOutDate;
         $_SESSION['sv_nightcount'] = $this->nightCount;
         $_SESSION['sv_guestperroom'] = $this->guestsPerRoom;
-        //$_SESSION['sv_childcount']    = $this->childPerRoom;
-        $_SESSION['sv_currency'] = $this->currency;
+        $_SESSION['sv_childcount']    = 0;
+        $_SESSION['sv_currency'] = 'USD';
         $_SESSION['svars_details'] = array();
+
     }
 
     private function invalidRequest()
